@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "repositories": [
+    {
+      "full_name": "riccardopinato/App-Factory-Core",
+      "purpose": "Policy riuso e Golden"
+    },
+    {
+      "full_name": "riccardopinato/Idee-app-Archivi-riferimenti",
+      "purpose": "Catalogo idee/donor"
+    },
+    {
+      "full_name": "riccardopinato/Adaptive-Landscape-Android",
+      "purpose": "Consumer e sorgente scene contract"
+    }
+  ]
+}
