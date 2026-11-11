@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scene2DesignReference",
+  "description": "Conceptual adaptation of Adaptive Landscape Schema-2; NOT a canonical extracted implementation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "scene",
+    "columns",
+    "rows",
+    "top",
+    "span",
+    "occupied",
+    "zones",
+    "palette",
+    "night",
+    "motion",
+    "reduceMotion"
+  ],
+  "properties": {
+    "schema": {
+      "const": 2
+    },
+    "scene": {
+      "enum": [
+        "meadow",
+        "beach"
+      ]
+    },
+    "columns": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 8
+    },
+    "rows": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 12
+    },
+    "top": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 0.5
+    },
+    "span": {
+      "type": "number",
+      "minimum": 0.2,
+      "maximum": 1
+    },
+    "occupied": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "uniqueItems": true
+    },
+    "zones": {
+      "type": "array",
+      "maxItems": 80,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "kind"
+        ],
+        "properties": {
+          "x": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "y": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "width": {
+            "type": "number",
+            "minimum": 0.03,
+            "maximum": 1
+          },
+          "height": {
+            "type": "number",
+            "minimum": 0.03,
+            "maximum": 1
+          },
+          "kind": {
+            "enum": [
+              "icon",
+              "widget",
+              "dock"
+            ]
+          }
+        }
+      }
+    },
+    "palette": {
+      "enum": [
+        "original",
+        "sunset",
+        "mint"
+      ]
+    },
+    "night": {
+      "type": "boolean"
+    },
+    "motion": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    },
+    "reduceMotion": {
+      "type": "boolean"
+    }
+  }
+}
