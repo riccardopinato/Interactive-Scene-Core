@@ -3,10 +3,10 @@
   "sources": [
     {
       "branch": "main",
-      "commit_date": "2026-11-11T12:33:04Z",
+      "commit_date": "2026-11-16T13:05:44Z",
       "purpose": "Consumer e sorgente scene contract",
       "repository": "riccardopinato/Adaptive-Landscape-Android",
-      "sha": "ec795322b6a8d2c69c255da86fce418018e1a171"
+      "sha": "2dcaf70a1d4962e9e81490d84df4f89f355cb7d4"
     },
     {
       "branch": "main",
@@ -17,10 +17,10 @@
     },
     {
       "branch": "main",
-      "commit_date": "2026-11-13T19:30:56Z",
+      "commit_date": "2026-11-16T13:03:09Z",
       "purpose": "Catalogo idee/donor",
       "repository": "riccardopinato/Idee-app-Archivi-riferimenti",
-      "sha": "8fdc4e1f526d54287b52ad3433004fb4f89b7dc9"
+      "sha": "2ebb2e9b55e1f721bf026c38bdb839a9bd0b04d5"
     }
   ]
 }
