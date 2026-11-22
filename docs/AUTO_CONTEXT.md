@@ -5,7 +5,7 @@
 | Repository | Utilizzo | Branch | SHA | Data commit (UTC) |
 |---|---|---|---|---|
 | [riccardopinato/Adaptive-Landscape-Android](https://github.com/riccardopinato/Adaptive-Landscape-Android) | Consumer e sorgente scene contract | `main` | [`ae76dea3af9e`](https://github.com/riccardopinato/Adaptive-Landscape-Android/commit/ae76dea3af9e23dfd078107ad9ee40af2e7041ed) | 2026-11-19T22:50:16Z |
-| [riccardopinato/App-Factory-Core](https://github.com/riccardopinato/App-Factory-Core) | Policy riuso e Golden | `main` | [`9391419c6b7c`](https://github.com/riccardopinato/App-Factory-Core/commit/9391419c6b7c9c23c2f978262fe8fe6670c68160) | 2026-11-21T03:54:35Z |
+| [riccardopinato/App-Factory-Core](https://github.com/riccardopinato/App-Factory-Core) | Policy riuso e Golden | `main` | [`ede07c491e58`](https://github.com/riccardopinato/App-Factory-Core/commit/ede07c491e586215598ff68daec43e17d699aa51) | 2026-11-21T14:10:09Z |
 | [riccardopinato/Idee-app-Archivi-riferimenti](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti) | Catalogo idee/donor | `main` | [`5cc0cedc0423`](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/commit/5cc0cedc042379f19cde7b39dfd463d8354875dd) | 2026-11-21T10:29:36Z |
 
 I cambiamenti indicano nuovi commit, non modifiche automaticamente approvate o importate nei moduli.
